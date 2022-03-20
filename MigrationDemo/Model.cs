@@ -19,6 +19,7 @@ namespace MigrationDemo
         public string Url { get; set; }
         public int Rating { get; set; }
 
+        public int User2 { get; set; }
         public virtual List<Post> Posts { get; set; }
     }
 
