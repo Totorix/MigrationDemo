@@ -21,6 +21,7 @@ namespace MigrationDemo
 
         public int ColUser1 { get; set; }
 
+        public int User2 { get; set; }
         public virtual List<Post> Posts { get; set; }
     }
 
